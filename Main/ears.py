@@ -1,7 +1,20 @@
 import speech_recognition as sr
 import spacy
 
+            
 
+
+
+
+
+
+
+
+
+
+#===============================================#
+#++++++++++---EARS_MODULE-------------++++++++++#
+#===============================================#
 
 def recogniton_voice_module(nlp):
     recognizer=sr.Recognizer()
@@ -40,6 +53,21 @@ def recogniton_voice_module(nlp):
         pass
     except OSError as e:
         print({e})
+        
+            
+
+
+
+
+
+
+
+
+
+
+#===============================================#
+#++++++++++---RUNNING AND DEBUGGING---++++++++++#
+#===============================================#
 
 if __name__=="__main__":
     try:
